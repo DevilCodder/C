@@ -26,10 +26,10 @@ avg = sum/3;
 printf("Your Total Marks:%d\n",sum);
 if (avg>120)
 {
-    printf("Overall, You are Fail");
+    printf("Your total percentage is %f and You are Fail",avg);
 }
 else{
-    printf("You are Pass");
+    printf("Your total percentage is %f and You are Pass",avg);
 }
 
 return 0;

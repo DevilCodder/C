@@ -8,7 +8,9 @@ int main()
     {
         printf("Don't be oversmart Enter Your mraks");
     }
-    else
+    else {
+        printf
+    }
     
     switch (mark/10)
     {
