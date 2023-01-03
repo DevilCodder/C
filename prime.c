@@ -1,15 +1,23 @@
 #include<stdio.h>
 int main(){
-int a;
-printf("Enter your number:\n",a);
-scanf("%d",&a);
-if ((a / a && a / 1))
+int n,i , prime;
+printf("Enter your number:\n",n);
+scanf("%d",&n);
+for ( i = 2; i < n; i++)
 {
-    printf("the no. is prime");
+   if (n % i == 0)
+   {
+    printf("This is not a prime number");
+    break;
+    prime==1;
+   }
+   else{
+    printf("This is a Prime number");
+   }
+   break;
 }
-else{
-    printf("the no. is odd");
-}
+
+
 
 
 return 0;
